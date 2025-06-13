@@ -1,0 +1,37 @@
+name: rag_ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - pymongo
+  - pydantic
+  - requests
+  - pytorch=2.1.0
+  - torchvision
+  - torchaudio
+  - tensorflow=2.15.0
+  - keras=3.0.0
+  - transformers
+  - datasets
+  - sentence-transformers
+  - pip:
+      - langchain
+      - langchain-community
+      - langchain-mongodb
+      - langchain-openai
+      - faiss-cpu
+      - ollama
+      - llama-index
+      - llama-index-vector-stores-faiss
+      - python-dotenv
+      - tiktoken
+      - gradio
