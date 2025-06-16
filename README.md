@@ -14,9 +14,6 @@ Key functionalities include:
 The repository is organized into several Jupyter notebooks and data files, each serving a specific purpose in the RAG pipeline:
 
 * `KG_RAG_Autonomous_Fixed.ipynb`: The main notebook demonstrating the end-to-end RAG pipeline, including LLM integration, knowledge graph interactions, and vector store querying.
-* `README.md`: This README file.
-* `data.json`: Contains raw PyTorch documentation snippets and information, likely used as source material.
-* `doc_info.json`: Contains structured information about the PyTorch documentation, parsed from the raw data.
 * `environment.yml`: Specifies the Conda environment dependencies required to run the project.
 * `extraction.ipynb`: Details the web scraping process used to extract data from PyTorch documentation, likely generating `data.json` or `doc_info.json`.
 * `nosql_db_load.ipynb`: Demonstrates how to load the processed document information into a MongoDB database.
